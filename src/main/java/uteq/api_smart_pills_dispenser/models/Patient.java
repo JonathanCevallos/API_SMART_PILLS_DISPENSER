@@ -3,7 +3,7 @@ package uteq.api_smart_pills_dispenser.models;
 import javax.persistence.*;
 
 @Entity
-    @Table(name = "patient")
+@Table(name = "patient")
 public class Patient {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
